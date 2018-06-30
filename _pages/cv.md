@@ -11,22 +11,40 @@ redirect_from:
 
 Education
 ======
-* B.S. in Github, Github University, 2012
-* M.S. in Jekyll, Github University, 2014
-* Ph.D in Version Control Theory, Github University, 2018 (expected)
+* Batesville High School, 2016
+  * Valedictorian 
+* B.A. in Computer Science and Mathematics, Hendrix College, 2020 (expected)
+  * GPA: 4.0
 
-Work experience
+Research Experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* Summer 2018: Broad Summer Research Experience | Broad Institute of MIT and Harvard
+  * Created a pipline to identify potentially pathogenic gene variants associated with Kidney Disease
+  * Supervisor: Dr. Marshall
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* Summer 2017: ProHealth REU | Indiana University Bloomington
+  * Created Bayesian networks modeling interactions between heart disease risk factors
+  * Supervisor: Dr. Natarajan
   
+Teaching Experience
+======
+* Spring 2018: Teaching Assistant for Data Structures | Hendrix College
+  * Helped students understand and implement data structures using Java
+  * 3 hrs/week of lab, 2 hrs/week of tutoring hours
+  * Supervisor: Dr. Ferrer
+* Fall 2017: Teaching Assistant for Foundations of Computer Science |Hendrix College
+  * Introduced students to the basics of coding and debugging in Python
+  * 3 hrs/week of lab, 2 hrs/week of tutoring hours
+  * Supervisor: Dr. Ferrer
+  
+Work Experience
+======
+
+  
+Service and leadership
+======
+* Currently signed in to 43 different slack teams
+
 Skills
 ======
 * Skill 1
@@ -35,25 +53,3 @@ Skills
   * Sub-skill 2.2
   * Sub-skill 2.3
 * Skill 3
-
-Publications
-======
-  <ul>{% for post in site.publications %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks %}
-    {% include archive-single-talk-cv.html %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
