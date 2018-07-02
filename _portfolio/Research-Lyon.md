@@ -1,0 +1,9 @@
+---
+title: "16S rRNA Gene-Based Metagenomic Analysis of Ozark Cave Bacteria"
+excerpt: "2015 summer research assistantship at Lyon College <br/><img src='/images/bacteriaCollection.jpg'>"
+collection: portfolio
+---
+
+The microbial diversity within cave ecosystems is largely unknown. Ozark caves maintain a year-round stable temperature (12–14 °C), but most parts of the caves experience complete darkness. The lack of sunlight and geological isolation from surface-energy inputs generate nutrient-poor conditions that may limit species diversity in such environments. Although microorganisms play a crucial role in sustaining life on Earth and impacting human health, little is known about their diversity, ecology, and evolution in community structures. We used five Ozark region caves as test sites for exploring bacterial diversity and monitoring long-term biodiversity. Illumina MiSeq sequencing of five cave soil samples and a control sample revealed a total of 49 bacterial phyla, with seven major phyla: Proteobacteria, Acidobacteria, Actinobacteria, Firmicutes, Chloroflexi, Bacteroidetes, and Nitrospirae. Variation in bacterial composition was observed among the five caves studied. Sandtown Cave had the lowest richness and most divergent community composition. 16S rRNA gene-based metagenomic analysis of cave-dwelling microbial communities in the Ozark caves revealed that species abundance and diversity are vast and included ecologically, agriculturally, and economically relevant taxa.
+
+This research was conducted at Lyon College under the guidance of Dr. Oliveira and Dr. Thomas. I worked as a lab assistant for several weeks during the summer of 2015, gathering and preparing samples for analysis. The results of this research were [recently published](http://www.mdpi.com/1424-2818/9/3/31).
