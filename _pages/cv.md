@@ -11,9 +11,8 @@ redirect_from:
 
 # Education
 
-**Massachusetts Institute of Technology**, PhD in Biological Engineering (expected 2019)   
-**Columbia University**, B.S. in Biomedical Engineering (2013)   
-James Bowie High School, Austin, TX (2009)
+**Hendrix College**, B.A. in Computer Science & Mathematics (expected 2020)   
+**Batesville High School** (2016)   
 
 ***
 
@@ -39,35 +38,12 @@ There, I worked with Cedric Norais to study the acquired-immunity CRISPR system 
 
 ***
 
-# Publications
-
-See [publications](/publications/) page.
-
-***
-
 # Presentations
-
-## Oral presentations
-
-May 2018 - "Distribution-based methods to increase power and reduce redundancy in microbiome data." Teaching and Developing QIIME 2 Workshop. ([abstract](https://docs.google.com/document/d/1AJS6E6zKC3vB87L6lE3jkbEnqKKbmAUklx2LNP5xn0k/edit?disco=AAAAB30XTS8&ts=5ae86df5#heading=h.nu9k79xrnqy2))
-
-Mar. 2018 - "Meta-analysis to identify consistent disease-associated microbiome shifts." [MIT-Harvard Microbiome Symposium](https://microbiome2018.wordpress.com/).
-
-Feb. 2018 - "Aspiration changes relationships in the aerodigestive microbiome." [Bioengineering and Toxicology Seminar](https://be.mit.edu/news-events/bats)   
-
-Oct. 2017 - "Meta-analysis to identify consistent disease-associated microbiome shifts." [MIT Department of Biological Engineering Retreat](http://be-retreat.mit.edu/).
-
-Oct. 2016 - "The human gut microbiome in health and disease." [Bioengineering and Toxicology Seminar](https://be.mit.edu/news-events/bats)   
 
 ## Poster presentations
 
-Mar. 2018 - "Meta-analysis to identify consistent disease-specific and shared responses." [MIT-Harvard Microbiome Symposium](https://microbiome2018.wordpress.com/). [pdf](/files/2018-03-21.symposium_poster.pdf)
+July. 2017 - "Probabalistic Models for Cardiovascular Events." [Indiana University School of Informatics and Computing Summer Research Programs Poster Symposium](https://www.sice.indiana.edu/news/story.html?story=Summer-REU-students-cap-off-work-symposium). [pdf](/files/POSTER.pdf)
 
-Mar. 2018 - "Meta-analysis of gut microbiome studies identifies disease-specific and shared responses." [Women in Data Science Cambridge](https://www.widscambridge.org/). [pdf](/files/2017-10-10.be_retreat_poster.pdf)
-
-Jan. 2018 - "Meta-analysis of gut microbiome studies identifies disease-specific and shared responses." [Pacific Symposium on Biocomputing](https://psb.stanford.edu/). [pdf](/files/2017-10-10.be_retreat_poster.pdf)
-
-Feb. 2016 - "Empirical signatures of compositional stability in the gut microbiome." Statistical and Algorithmic Challenges in Microbiome Data Analysis Workshop, MIT Center for Informatics and Therapeutics and The Simons Center for Data Analysis. [pdf](/files/2016-02-25.predictingOTUs.scda_workshop_poster.pdf)
 
 ***
 
