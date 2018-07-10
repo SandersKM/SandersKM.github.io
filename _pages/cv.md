@@ -51,26 +51,18 @@ July. 2017 - "Probabalistic Models for Cardiovascular Events." [Indiana Universi
 
 ## Academic
 
-**20.106 Systems Microbiology, Teaching assistant**   
-*Massachusetts Institute of Technology*, Cambridge, Massachusetts (Fall 2015)
+**Data Structures, Teaching assistant**   
+*Hendrix College*, Conway, AR (Spring 2018)
 
-I was a TA for seven advanced undergraduate students in a new course on the human microbiome, emerging disease, phylogenetics, and host-microbe interactions.
-I developed problem sets and guided lecture content for a module on processing and analyzing 16S data, and facilitated and participated in paper discussions on various topics in zoonotic disease, viral communities, host immune responses, and the human microbiome.
+I was a TA for the 3 hour weekly labratory portion of the data structures class. I also tutored students from several computer science classes weekly for 2 hours. 
+When students had trouble implementing complex data structures in Java, I answered conceptual questions and helped with debugging. I also gave advice to students tackeling large independent projects.
 
-**UP Biomedical Equipment Technology Department, Lecturer**   
-*Engineering World Health and University of Puthisastra*, Phnom Penh, Cambodia (2013-2014)
 
-During my Luce Year, I worked as a lecturer for [Engineering World Health](ewh.org) at the [University of Puthisastra](http://www.puthisastra.edu.kh/).
-I developed curricula for anatomy and physiology, troubleshooting skills, and math in the new Associate Bachelor's program in Biomedical Equipment Technology.
-I prepared and delivered lectures, exams, assignments, in-class activities, and demos for two classes of 12-18 Cambodian students and technicians (in English, with a translator).
-I also managed Cambodian student-teaching staff during main supervisor's absence and supported foreign and local teaching staff.
+**Foundations of Computer Science, Teaching assistant**    
+*Hendrix College*, Conway, AR (Fall 2017)
 
-**The Art of Engineering, Teaching assistant**    
-*Columbia University*, New York, NY (2012-2013)
-
-My senior year at Columbia, I TAed the intro to engineering course for freshmen.
-I assisted the students in designing and building a vital-signs monitoring device, guiding them through the engineering design process and teaching concepts in MATLAB and circuitry required for projects.
-I also mentored and advised students on general biomedical engineering and college-related questions.
+I was a TA for the labratory portion of the introductory computer science class at Hendrix. In addition to answering questions during labs for 3 hours per week, I also hosted tutoring hours weekly for 2 hours. 
+I assisted the students in mastering the basics of programming in Python, guiding them through the logic and debugging skills required to complete projects.
 
 ***
 
