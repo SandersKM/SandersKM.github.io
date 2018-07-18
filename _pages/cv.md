@@ -18,23 +18,25 @@ redirect_from:
 
 # Research experience
 
-**Alm lab**, Massachusetts Institute of Technology (2014-present)   
-*Under the direction of Eric Alm*
+[**Greka Lab**](http://grekalab.bwh.harvard.edu/people/), Broad Institute of MIT and Harvard (Summer 2018)
+*__Broad Summer Research Program__ Under the direction of [Dr. Jamie Marshall](https://www.broadinstitute.org/bios/jamie-marshall)*
 
-I am currently a PhD student in [Eric Alm's lab](http://almlab.mit.edu/) at MIT. You can learn more about my research interests on our [lab website](http://almlab.mit.edu/claire_duvallet.html) and on my [publications](/publications/) and [research](/research/) pages.
+Created a pipline to identify potentially pathogenic gene variants associated with Kidney Disease
 
-**Molecular and Microscale Bioengineering Laboratory**, Columbia University (2011-2013)
-*Under the direction of Samuel K. Sia*
+Hendrix College (Spring 2018)
+*__Undergraduate Research Odyssey__ Under the direction of [Dr. Lindsay Kennedy](https://www.hendrix.edu/psychology/psychology.aspx?id=54453)*
 
-I was an undergraduate research assistant in [Sam   Sia](http://bme.columbia.edu/samuel-k-sia)'s lab for two years at Columbia.
-There, I worked on developing a point-of-care microfluidic device to diagnose multi-drug resistant tuberculosis.
-I primarily focused on the DNA amplification and detection modules, optimizing primers and reaction conditions off-chip.
+Analyzed results of the Hendrix Well Being Survey and compiled a campus report
 
-**Laboratoire de Biochimie**, Ecole Polytechnique (Summer 2012)   
-*Under the direction of Cedric Norais*
+[**StARLinG Lab**](https://starling.utdallas.edu/),  Indiana University Bloomington (Summer 2018)
+*__ProHealth REU__ Under the direction of [Dr. Sriraam Natarajan](http://utdallas.edu/~sriraam.natarajan/)*
 
-I was an international undergraduate research intern at Ecole Polytechnique the summer before my senior year.
-There, I worked with Cedric Norais to study the acquired-immunity CRISPR system in E. coli.
+Created Bayesian networks modeling interactions between heart disease risk factors
+
+Lyon College (2015)
+*__Research Assistant__ Under the direction of [Dr. Cassia Oliveira](https://www.lyon.edu/cassiaoliveira)*
+
+Gathered, maintained, and extracted RNA from Ozark cave bacteria
 
 ***
 
@@ -70,39 +72,27 @@ I assisted the students in mastering the basics of programming in Python, guidin
 
 ## Academic and Professional
 
-[**Hendrix Computer Science Club**](http://microbiome.mit.edu/get-involved/#club), *Founder*, *President* (2017-2018)
+**Hendrix Computer Science Club**, *Founder*, *President* (2017-2018)
 
-**MIT-Harvard Microbiome Symposium**, *co-founder and Organizing committee* ([2016](https://microbiome2016.wordpress.com/) and [2017](https://microbiome2017.wordpress.com/))
+The Hendrix Computer Science Club's mission is to increase community, professional development, and outreach oppurtunities for students interested in technology at Hendrix. As the President during the first year I oversaw 3 professional development events, 2 off-campus outreach events, 3 on-campus outreach events, 4 movie nights, and 2 computational projects. 
 
-[**MIT Biotech Group**](http://biotech.mit.edu/), *Beyond the Bench Initiative board member* (2017-present)
+**Hendrix Programming Team**, *Competition Team Member* (2017-2018)
 
-## Departmental and MIT
+Our team meets for 2 hours a week to work through programming competition questions and Kattis problems. My team won 2nd place at the [CCSC:Mid-South Programming Contests](http://www.ccsc-ms.org/index.php?page=contest&sub=results) in Spring 2018. 
 
-**Graduate Student Council Diversity and Inclusion Subcommittee**, *Vice Chair and Department and Classroom Inclusion co-coordinator* (2017-present)    
+## Hendrix Community
 
-In this role, I coordinate and oversee semesterly conduit assemblies, which bring together diversity representatives from all MIT departments.
+**Hendrix Experience Ambassadors Program**, *Student Ambassador* (2016-2018)
 
-[**BE Graduate Student Board**](http://begradboard.mit.edu/), *Diversity Chair* (2015-present)    
+[**The Profile at Hendrix College**](https://issuu.com/thehendrixcollegeprofile), *Staff Writer* (2016-2017)
 
-As Diversity Chair, I co-started the [BE Application Assistance Program](http://be.mit.edu/academic-programs/prospective-graduate/beaap), co-wrote the [BE Departmental Values Statement](http://be.mit.edu/about/department-values-statement), and spearheaded the 2016 Diversity Climate Survey, which has informed diversity-related efforts since.
+## Music
 
-[**BE Resources for Easing Friction and Stress**](http://berefs.com/), *BE Ref* (2016-present)    
+[**Hendrix College Choir**](https://www.hendrix.edu/choir/), *Choir Scholar* (2016-2018)
 
-**Biological Engineering Department Visiting Committee**, *Graduate student representative* (2018)
+[**Christ Episcopal Church Choir**](http://christchurchlr.org/?page_id=1834), *Paid Singer* (2016-2018)
 
-**Graduate Student Advisory Group for Engineering (GradSAGE)**, Advisory group to the Dean of the School of Engineering, *Advisor/advisee relations subcommittee* (2017-2018)
-
-## Outreach and mentorship
-
-[**MIT SuperUROP Program**](https://superurop.mit.edu/), Microbiome superUROP mentor (2017-2018). Supervised one undergraduate researcher.
-
-## Extracurriculars
-
-[**ESL Program for MIT Service Employees**](http://hrweb.mit.edu/esl), *GED Math tutor* (2015-2018)
-
-[**MIT Women's Ultimate Frisbee Team**](http://scripts.mit.edu/~womens-ult/), *B-team captain* (2015-2016), *member* (2014-present)
-
-[**MIT Interfaith Dialogue Program**](http://addir.mit.edu/), *Addir fellow* (2017-present)
+[**Compline Choir**](https://complineathendrix.org/), *Paid Singer* (2016-2018)
 
 ***
 
@@ -133,58 +123,3 @@ Dean's List, Hendrix College (Fall 2016 - Spring 2018)
 Valedictorian, Batesville High School (2016)
 
 [The President's Volunteer Service Award](https://www.presidentialserviceawards.gov/) (Spring 2016)
-
-
-
-Education
-======
-* Batesville High School, 2016
-* B.A. in Computer Science and Mathematics, Hendrix College, 2020 (expected)
-
-Research Experience
-======
-* Summer 2018 ~ Broad Summer Research Program ~ Broad Institute of MIT and Harvard
-  * Created a pipline to identify potentially pathogenic gene variants associated with Kidney Disease
-  * Supervisor: [Dr. Jamie Marshall](https://www.broadinstitute.org/bios/jamie-marshall)
-  
-* Spring 2018 ~ Undergraduate Research Project ~ Hendrix College
-  * Analyzed results of the Hendrix Well Being Survey and compiled a campus report
-  * Supervisor: [Dr. Lindsay Kennedy](https://www.hendrix.edu/psychology/psychology.aspx?id=54453)
-
-* Summer 2017 ~ ProHealth REU ~ Indiana University Bloomington
-  * Created Bayesian networks modeling interactions between heart disease risk factors
-  * Supervisor: [Dr. Sriraam Natarajan](http://utdallas.edu/~sriraam.natarajan/)
-  
-* Summer 2015 ~ Research Assistant ~ Lyon College
-  * Gathered, maintained, and extracted RNA from Ozark cave bacteria
-  * Supervisor: [Dr. Cassia Oliveira](https://www.lyon.edu/cassiaoliveira)
-  
-Teaching Experience
-======
-* Spring 2018 ~ Teaching Assistant for Data Structures ~ Hendrix College
-  * Helped students understand and implement data structures using Java
-  * 3 hrs/week of lab, 2 hrs/week of tutoring hours
-  * Supervisor: [Dr. Gabriel Ferrer](http://ozark.hendrix.edu/~ferrer/)
-* Fall 2017 ~ Teaching Assistant for Foundations of Computer Science ~ Hendrix College
-  * Introduced students to the basics of coding and debugging in Python
-  * 3 hrs/week of lab, 2 hrs/week of tutoring hours
-  * Supervisor: [Dr. Gabriel Ferrer](http://ozark.hendrix.edu/~ferrer/)
-  
-Service and leadership
-======
-* Fall 2017-Present ~ Hendrix Computer Science Club ~ Founder  
-  * Created an organization promoting professional development, outreach, and community
-* 
-
-Music
-======
-
-
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
