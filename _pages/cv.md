@@ -29,7 +29,7 @@ At the Broad Institute, I created a user-friendly pipeline to identify potential
 I created a pipeline in R for analyzing results of the Hendrix Well Being Survey. After exploring group differences between well-being measures, I compiled a report and presented my findings to Hendrix faculty and students. 
 
 **ProHealth REU**,  Indiana University Bloomington (Summer 2018)          
-[**StARLinG Lab**](https://starling.utdallas.edu/), *Under the direction of [Dr. Sriraam Natarajan](http://utdallas.edu/~sriraam.natarajan/)* 
+[StARLinG Lab](https://starling.utdallas.edu/), *Under the direction of [Dr. Sriraam Natarajan](http://utdallas.edu/~sriraam.natarajan/)* 
 
 I participated in the ProHealth REU the summer after my freshman year. While there, I explored novel interactions between heart disease risk factors using Bayesian networks. 
 
@@ -58,15 +58,13 @@ July. 2017 - "Probabilistic Models for Cardiovascular Events." [Indiana Universi
 **Data Structures, Teaching assistant**   
 *Hendrix College*, Conway, AR (Spring 2018)
 
-I was a TA for the 3-hour weekly laboratory portion of the data structures class. I also tutored students from several computer science classes weekly for 2 hours. 
-When students had trouble implementing complex data structures in Java, I answered conceptual questions and helped with debugging. I also gave advice to students tackling large independent projects.
+I was a TA for the 3-hour weekly laboratory portion of the data structures class. I also tutored students from several computer science classes weekly for 2 hours. When students had trouble implementing complex data structures in Java, I answered conceptual questions and helped with debugging. I also gave advice to students tackling large independent projects.
 
 
 **Foundations of Computer Science, Teaching assistant**    
 *Hendrix College*, Conway, AR (Fall 2017)
 
-I was a TA for the laboratory portion of the introductory computer science class at Hendrix. In addition to answering questions during labs for 3 hours per week, I also hosted tutoring hours weekly for 2 hours. 
-I assisted the students in mastering the basics of programming in Python, guiding them through the logic and debugging skills required to complete projects.
+I was a TA for the laboratory portion of the introductory computer science class at Hendrix. In addition to answering questions during labs for 3 hours per week, I also hosted tutoring hours weekly for 2 hours. I assisted the students in mastering the basics of programming in Python, guiding them through the logic and debugging skills required to complete projects.
 
 ***
 
@@ -86,7 +84,11 @@ Our team meets for 2 hours a week to work through programming competition questi
 
 **Hendrix Experience Ambassadors Program**, *Student Ambassador* (2016-2018)
 
+I spend a few hours a week showing prospective students around Hendrix and sharing my own experiences. 
+
 [**The Profile at Hendrix College**](https://issuu.com/thehendrixcollegeprofile), *Staff Writer* (2016-2017)
+
+I wrote several articles per month, ranging from alumni profiles to community events. 
 
 ## Music
 
