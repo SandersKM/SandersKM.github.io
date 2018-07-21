@@ -19,31 +19,23 @@ redirect_from:
 # Research experience
 
 **Broad Summer Research Program**, Broad Institute of MIT and Harvard (Summer 2018)
-
 [Greka Lab](http://grekalab.bwh.harvard.edu/people/), *Under the direction of [Dr. Jamie Marshall](https://www.broadinstitute.org/bios/jamie-marshall)*
-
 Created a pipline to identify potentially pathogenic gene variants associated with Kidney Disease
 
 
 
 **Undergraduate Research Odyssey**, Hendrix College (Spring 2018)
-
 *Under the direction of [Dr. Lindsay Kennedy](https://www.hendrix.edu/psychology/psychology.aspx?id=54453)*
-
 Analyzed results of the Hendrix Well Being Survey and compiled a campus report
 
 
 **ProHealth REU**,  Indiana University Bloomington (Summer 2018)
-
 [**StARLinG Lab**](https://starling.utdallas.edu/), *Under the direction of [Dr. Sriraam Natarajan](http://utdallas.edu/~sriraam.natarajan/)*
-
 Created Bayesian networks modeling interactions between heart disease risk factors
 
 
 **Research Assistant**, Lyon College (2015)
-
 *Under the direction of [Dr. Cassia Oliveira](https://www.lyon.edu/cassiaoliveira)*
-
 Gathered, maintained, and extracted RNA from Ozark cave bacteria
 
 ***
