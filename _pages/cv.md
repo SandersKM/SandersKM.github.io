@@ -21,24 +21,24 @@ redirect_from:
 **Broad Summer Research Program**, Broad Institute of MIT and Harvard (Summer 2018)         
 [Greka Lab](http://grekalab.bwh.harvard.edu/people/), *Under the direction of [Dr. Jamie Marshall](https://www.broadinstitute.org/bios/jamie-marshall)* 
 
-Created a pipline to identify potentially pathogenic gene variants associated with Kidney Disease 
+At the Broad Institute, I created a user-friendly pipeline to identify potentially pathogenic gene variants associated with Kidney Disease. This pipeline significantly reduces the time researchers must spend searching for gene variants online, thereby increasing the time that can be spent conducting experiments in the lab. 
 
 **Undergraduate Research Odyssey**, Hendrix College (Spring 2018)           
 *Under the direction of [Dr. Lindsay Kennedy](https://www.hendrix.edu/psychology/psychology.aspx?id=54453)* 
 
-Analyzed results of the Hendrix Well Being Survey and compiled a campus report 
-
+I created a pipeline in R for analyzing results of the Hendrix Well Being Survey. After exploring group differences between well-being measures, I compiled a report and presented my findings to Hendrix faculty and students. 
 
 **ProHealth REU**,  Indiana University Bloomington (Summer 2018)          
 [**StARLinG Lab**](https://starling.utdallas.edu/), *Under the direction of [Dr. Sriraam Natarajan](http://utdallas.edu/~sriraam.natarajan/)* 
 
-Created Bayesian networks modeling interactions between heart disease risk factors 
+I participated in the ProHealth REU the summer after my freshman year. While there, I explored novel interactions between heart disease risk factors using Bayesian networks. 
 
 
-**Research Assistant**, Lyon College (2015)       
+**Research Assistant**, Lyon College (Summer 2015)       
 *Under the direction of [Dr. Cassia Oliveira](https://www.lyon.edu/cassiaoliveira)*
 
-Gathered, maintained, and extracted RNA from Ozark cave bacteria
+I assisted with Dr. Oliviera's research in 16S rRNA metagenomic analysis of Ozark cave bacteria the summer before my senior year of high school. During this time I helped gather and grow cave bacteria, perform RNA extraction, and analyze sequencing results. [Read more](/portfolio/Research-Lyon/). 
+
 
 ***
 
@@ -46,7 +46,7 @@ Gathered, maintained, and extracted RNA from Ozark cave bacteria
 
 ## Poster presentations
 
-July. 2017 - "Probabalistic Models for Cardiovascular Events." [Indiana University School of Informatics and Computing Summer Research Programs Poster Symposium](https://www.sice.indiana.edu/news/story.html?story=Summer-REU-students-cap-off-work-symposium). [pdf](/files/POSTER.pdf)
+July. 2017 - "Probabilistic Models for Cardiovascular Events." [Indiana University School of Informatics and Computing Summer Research Programs Poster Symposium](https://www.sice.indiana.edu/news/story.html?story=Summer-REU-students-cap-off-work-symposium). [pdf](/files/POSTER.pdf)
 
 
 ***
@@ -58,14 +58,14 @@ July. 2017 - "Probabalistic Models for Cardiovascular Events." [Indiana Universi
 **Data Structures, Teaching assistant**   
 *Hendrix College*, Conway, AR (Spring 2018)
 
-I was a TA for the 3 hour weekly labratory portion of the data structures class. I also tutored students from several computer science classes weekly for 2 hours. 
-When students had trouble implementing complex data structures in Java, I answered conceptual questions and helped with debugging. I also gave advice to students tackeling large independent projects.
+I was a TA for the 3-hour weekly laboratory portion of the data structures class. I also tutored students from several computer science classes weekly for 2 hours. 
+When students had trouble implementing complex data structures in Java, I answered conceptual questions and helped with debugging. I also gave advice to students tackling large independent projects.
 
 
 **Foundations of Computer Science, Teaching assistant**    
 *Hendrix College*, Conway, AR (Fall 2017)
 
-I was a TA for the labratory portion of the introductory computer science class at Hendrix. In addition to answering questions during labs for 3 hours per week, I also hosted tutoring hours weekly for 2 hours. 
+I was a TA for the laboratory portion of the introductory computer science class at Hendrix. In addition to answering questions during labs for 3 hours per week, I also hosted tutoring hours weekly for 2 hours. 
 I assisted the students in mastering the basics of programming in Python, guiding them through the logic and debugging skills required to complete projects.
 
 ***
@@ -76,11 +76,11 @@ I assisted the students in mastering the basics of programming in Python, guidin
 
 **Hendrix Computer Science Club**, *Founder*, *President* (2017-2018)
 
-The Hendrix Computer Science Club's mission is to increase community, professional development, and outreach oppurtunities for students interested in technology at Hendrix. As the President during the first year I oversaw 3 professional development events, 2 off-campus outreach events, 3 on-campus outreach events, 4 movie nights, and 2 computational projects. 
+The Hendrix Computer Science Club's mission is to increase community, professional development, and outreach opportunities for students interested in technology at Hendrix. As the President during the first year, I oversaw 3 professional development events, 2 off-campus outreach events, 3 on-campus outreach events, 4 movie nights, and 2 computational projects. 
 
 **Hendrix Programming Team**, *Competition Team Member* (2017-2018)
 
-Our team meets for 2 hours a week to work through programming competition questions and Kattis problems. My team won 2nd place at the [CCSC:Mid-South Programming Contests](http://www.ccsc-ms.org/index.php?page=contest&sub=results) in Spring 2018. 
+Our team meets for 2 hours a week to work through programming competition questions and Kattis problems. My team won 2nd place at the [CCSC: Mid-South Programming Contests](http://www.ccsc-ms.org/index.php?page=contest&sub=results) in Spring 2018. 
 
 ## Hendrix Community
 
