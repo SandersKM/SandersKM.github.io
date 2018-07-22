@@ -1,6 +1,6 @@
 ---
 title: 'Blog Post number 1'
-date: 2012-08-14
+date: 2018-7-21
 permalink: /posts/LD-Distance-Heatmap/
 tags:
   - Genomics
