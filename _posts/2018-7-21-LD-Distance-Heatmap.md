@@ -1,7 +1,7 @@
 ---
 title: 'Two for One Heatmaps in R with ComplexHeatmaps'
 date: 2018-7-21
-excerpt: "<img src='/images/Blog_Heatmap_R2.png'>"
+excerpt: "<img src='/images/Blog_Heatmap_R2.png' style="width:300px;height:300px;">"
 permalink: /posts/LD-Distance-Heatmap/
 tags:
   - Genomics
@@ -60,7 +60,8 @@ start.10Kb <- gene.of.interest.half - 5000
 end.10Kb <- gene.of.interest.half + 5000
 ```
 
-The Ensembl REST API takes as parameters the chromosome of the gene of interest, the start and end position of the search range, and a population from the 1000 Genomes Project. For this tutorial, I am using the CEU population: "Utah residents with Northern and Western European ancestry"; you can find a full list of the populations *[here]*(http://grch37.rest.ensembl.org/documentation/info/variation_populations). Be aware that this is the GRCh 37 Ensembl REST
+The Ensembl REST API takes as parameters the chromosome of the gene of interest, the start and end position of the search range, and a population from the 1000 Genomes Project. For this tutorial, I am using the CEU population: "Utah residents with Northern and Western European ancestry"; you can find a full list of the populations 
+[*here*](http://grch37.rest.ensembl.org/documentation/info/variation_populations). Be aware that this is the GRCh 37 Ensembl REST
 API.
 
 Since the response of the API is in json, use the "jsonlite" package. The "data.table" package is also useful because
@@ -149,7 +150,7 @@ Heatmap(LD.r2.10Kb, name = "LD R2" col = colorRamp2(c(0,1), c("white", "darkred"
 cluster_columns = FALSE, show_row_names = TRUE, show_column_names = TRUE, show_column_dend = FALSE)
 ```
 
-![](https://github.com/SandersKM/SandersKM.github.io/tree/master/imagesBlog_Heatmap_R2.png)
+<img src='/images/Blog_Heatmap_R2.png' style="width:300px;height:300px;">
 
 
 Thanks to the handy function `outer()`, we can generate a matrix with the bp position differences between variants in one
