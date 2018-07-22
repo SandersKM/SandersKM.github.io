@@ -12,8 +12,6 @@ tags:
 Two for One Heatmaps in R with ComplexHeatmaps
 ======
 
-
-
 This post comes in 2 parts: gathering the data and making the heatmap. 
 
 All of the packages used in this tutorial come from Bioconductor. Start by running the following line:
@@ -30,7 +28,7 @@ Getting the Data
 First, if you don't already have it installed, download ensembldb. Then, open the package and create your mart.
 I still use GRCh 37, but you can leave out the last argument if you are using GRCh 38.
 
-```javascript
+```R
 biocLite("biomaRt") # Download
 library(biomaRt) # Open package
 
@@ -39,7 +37,7 @@ mart <- useEnsembl(biomart="ensembl", dataset="hsapiens_gene_ensembl", GRCh=37) 
 
 Now let's define the gene of interest and get some basic information.
 
-```javascript
+```R
 gene.of.interest <- "MUC1"
 
 gene.of.interest.info <- getBM(c("start_position", "end_position", "strand", "chromosome_name"),
@@ -55,7 +53,7 @@ gene.of.interest.chrom <- gene.of.interest.info$chromosome_name
 The Ensembl REST API allows for calls up to 500 kb, but for the purposes of speed and plotting, we will just look at 10 kb
 around the "half-way point" of our gene of interest. 
 
-```javascript
+```R
 gene.of.interest.half <- (gene.of.interest.start + gene.of.interest.end) %/% 2
 start.10Kb <- gene.of.interest.half - 5000
 end.10Kb <- gene.of.interest.half + 5000
@@ -68,7 +66,7 @@ Since the response of the API is in json, use the "jsonlite" package. The "data.
 it turns the nested list returned by jsonlite into a data frame. We don't need "httr" yet, but we may as well download it
 now.
 
-```javascript
+```R
 install.packages(c("jsonlite", "data.table", "httr")) # Download packages
 
 library(data.table) 
@@ -90,7 +88,7 @@ Let's see how many LD values got returned and see the layout of the data frame. 
 variants are in our LD data using a union of the variant columns. After exploring the data, we are ready to initialize
 a data frame that will have all the uniqe RSIDs of the variants and their base pair positions. 
 
-```javascript
+```R
 dim(LD.info.10Kb)
 head(LD.info.10Kb)
 length(union(LD.info.10Kb$variation1, LD.info.10Kb$variation2))
@@ -105,7 +103,7 @@ Fetching the variant positions from Ensembl is a bit tricky. Basically, Ensembl 
 at a time, which involves some indexing fun to make sure all of the positions end up with the right variants as quickly
 as possible. After fetching the positions, we will sort all of the variants by bp position. 
 
-```javascript
+```R
 # Fetch Position from Ensembl using RSID
 server <- "http://grch37.rest.ensembl.org"
 ext <- "/variation/homo_sapiens"
@@ -132,7 +130,7 @@ LD.info.10Kb.unique.variants <- LD.info.10Kb.unique.variants[order(LD.info.10Kb.
 
 Now that we have all of the information we need, we can create the R-squared matrix for LD. 
 
-```javascript
+```R
 LD.r2.10Kb <- matrix(0,nrow = dim(LD.info.10Kb.unique.variants)[1], ncol= dim(LD.info.10Kb.unique.variants)[1],
                      dimnames = list(LD.info.10Kb.unique.variants$rsid, LD.info.10Kb.unique.variants$rsid))
 # populate the r2 matrix
@@ -145,7 +143,7 @@ for(i in 1:dim(LD.info.10Kb)[1]){
 
 Let's make a Heatmap with just the R-squared values.
 
-```javascript
+```R
 Heatmap(LD.r2.10Kb, name = "LD R2" col = colorRamp2(c(0,1), c("white", "darkred")), cluster_rows = FALSE, 
 cluster_columns = FALSE, show_row_names = TRUE, show_column_names = TRUE, show_column_dend = FALSE)
 ```
@@ -153,7 +151,7 @@ cluster_columns = FALSE, show_row_names = TRUE, show_column_names = TRUE, show_c
 Thanks to the handy function `outer()`, we can generate a matrix with the bp position differences between variants in one
 line. 
 
-```javascript
+```R
 LD.dist.10Kb <- outer(LD.info.10Kb.unique.variants$position, LD.info.10Kb.unique.variants$position, "-")
 ```
 
@@ -162,32 +160,31 @@ values are already betweem zero and one, but it is also nice to scale the distan
 heatmap.
 
 
-```javascript
+```R
 LD.r2.10Kb[lower.tri(LD.r2.10Kb)] = 0 
 ```
 
-
-```javascript
-
-```
-
-
-```javascript
+```R
 
 ```
 
-
-```javascript
-
-```
-
-
-```javascript
+```R
 
 ```
 
+```R
 
-```javascript
+```
+
+```R
+
+```
+
+```R
+
+```
+
+```R
 
 ```
 
