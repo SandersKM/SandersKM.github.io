@@ -51,13 +51,13 @@ gene.of.interest.chrom <- gene.of.interest.info$chromosome_name
 
 ### LD information with Ensembl API
 
-The Ensembl REST API allows for calls up to 500 kb, but for the purposes of speed and plotting, we will just look at 30 kb
+The Ensembl REST API allows for calls up to 500 kb, but for the purposes of speed and plotting, we will just look at 10 kb
 around the "half-way point" of our gene of interest. 
 
 ```javascript
 gene.of.interest.half <- (gene.of.interest.start + gene.of.interest.end) %/% 2
-start.30Kb <- gene.of.interest.half - 23000
-end.30Kb <- gene.of.interest.half + 23000
+start.10Kb <- gene.of.interest.half - 5000
+end.10Kb <- gene.of.interest.half + 5000
 ```
 
 The Ensembl REST API takes as parameters the chromosome of the gene of interest, the start and end position of the search range, and a population from the 1000 Genomes Project. For this tutorial, I am using the CEU population: "Utah residents with Northern and Western European ancestry"; you can find a full list of the populations *[here]*(http://grch37.rest.ensembl.org/documentation/info/variation_populations). Be aware that this is the GRCh 37 Ensembl REST
@@ -77,12 +77,12 @@ library(httr)
 genomes.population <- "CEU" # Define population from 1000 Genomes project
 
 # Request API information. Internet is needed. 
-LD.info.30Kb <- read_json(paste("http://grch37.rest.ensembl.org/ld/human/region/",gene.of.interest.chrom,":",
-                                 start.30Kb, "..", end.30Kb -1, "/1000GENOMES:phase_3:",genomes.population,
+LD.info.10Kb <- read_json(paste("http://grch37.rest.ensembl.org/ld/human/region/",gene.of.interest.chrom,":",
+                                 start.10Kb, "..", end.10Kb -1, "/1000GENOMES:phase_3:",genomes.population,
                                  "?content-type=application/json",sep = ""))
-                                 
-LD.info.30Kb <- rbindlist(LD.info.30Kb, fill = FALSE) # nested list into dataframe                 
 
+LD.info.10Kb <- rbindlist(LD.info.10Kb, fill = FALSE) # nested list into dataframe  
+LD.info.10Kb$r2 <- as.numeric(LD.info.10Kb$r2)             
 ```
 
 Let's see how many LD values got returned and see the layout of the data frame. We can also look at how many unique
@@ -90,13 +90,13 @@ variants are in our LD data using a union of the variant columns. After explorin
 a data frame that will have all the uniqe RSIDs of the variants and their base pair positions. 
 
 ```javascript
-dim(LD.info.30Kb)
-head(LD.info.30Kb)
-length(union(LD.info.30Kb$variation1, LD.info.30Kb$variation2))
+dim(LD.info.10Kb)
+head(LD.info.10Kb)
+length(union(LD.info.10Kb$variation1, LD.info.10Kb$variation2))
 
-LD.info.30Kb.unique.variants <- data.frame(rsid = union(LD.info.30Kb$variation1, LD.info.30Kb$variation2),
-                                            position = numeric(length(union(LD.info.30Kb$variation1,
-                                            LD.info.30Kb$variation2))))
+LD.info.10Kb.unique.variants <- data.frame(rsid = union(LD.info.10Kb$variation1, LD.info.10Kb$variation2),
+                                            position = numeric(length(union(LD.info.10Kb$variation1,
+                                            LD.info.10Kb$variation2))))
 
 ```
 
@@ -105,40 +105,40 @@ at a time, which involves some indexing fun to make sure all of the positions en
 as possible. After fetching the positions, we will sort all of the variants by bp position. 
 
 ```javascript
+# Fetch Position from Ensembl using RSID
 server <- "http://grch37.rest.ensembl.org"
 ext <- "/variation/homo_sapiens"
 i <- 1
-while(i < dim(LD.info.30Kb.unique.variants)[1]){
+while(i < dim(LD.info.10Kb.unique.variants)[1]){
   j <- i + 190 # Ensembl takes at most 200 requests at a time.
-  if(j > dim(LD.info.30Kb.unique.variants)[1]){
-    j = dim(LD.info.30Kb.unique.variants)[1]
+  if(j > dim(LD.info.10Kb.unique.variants)[1]){
+    j = dim(LD.info.10Kb.unique.variants)[1]
   }
   rest.api.response <- r <- POST(paste(server, ext, sep = ""), content_type("application/json"), accept("application/json"),
-                                 body = paste('{ "ids" : [', paste0(LD.info.30Kb.unique.variants$rsid[i:j],
+                                 body = paste('{ "ids" : [', paste0(LD.info.10Kb.unique.variants$rsid[i:j],
                                                                     collapse = "\",\""), ' ] }', sep = "\""))
   rest.api.info <- fromJSON(toJSON(content(rest.api.response)))
   for(k in 1:length(rest.api.info)){
-    LD.info.30Kb.unique.variants$position[k + i - 1] <- rest.api.info[[k]]$mappings$start[[1]]
+    LD.info.10Kb.unique.variants$position[k + i - 1] <- rest.api.info[[k]]$mappings$start[[1]]
   }
   i <- j + 1
 }
 
 # Get rid of 0s if applicable and sort ascending by position
-LD.info.30Kb.unique.variants <- LD.info.30Kb.unique.variants[which(LD.info.30Kb.unique.variants$position > 0),]
-LD.info.30Kb.unique.variants <- LD.info.30Kb.unique.variants[order(LD.info.30Kb.unique.variants$position),]
+LD.info.10Kb.unique.variants <- LD.info.10Kb.unique.variants[which(LD.info.10Kb.unique.variants$position > 0),]
+LD.info.10Kb.unique.variants <- LD.info.10Kb.unique.variants[order(LD.info.10Kb.unique.variants$position),]
 ```
 
 Now that we have all of the information we need, we can create the R-squared matrix for LD. 
 
 ```javascript
-LD.r2.30Kb <- matrix(0,nrow = dim(LD.info.30Kb.unique.variants)[1], ncol= dim(LD.info.30Kb.unique.variants)[1],
-                     dimnames = list(LD.info.30Kb.unique.variants$rsid, LD.info.30Kb.unique.variants$rsid))
-                     
+LD.r2.10Kb <- matrix(0,nrow = dim(LD.info.10Kb.unique.variants)[1], ncol= dim(LD.info.10Kb.unique.variants)[1],
+                     dimnames = list(LD.info.10Kb.unique.variants$rsid, LD.info.10Kb.unique.variants$rsid))
 # populate the r2 matrix
-for(i in 1:dim(LD.info.30Kb)[1]){
-  LD.r2.30Kb[LD.info.30Kb$variation1[i], LD.info.30Kb$variation2[i]]<-
-    LD.r2.30Kb[LD.info.30Kb$variation2[i],LD.info.30Kb$variation1[i]] <-
-    LD.info.30Kb$r2[i]
+for(i in 1:dim(LD.info.10Kb)[1]){
+  LD.r2.10Kb[LD.info.10Kb$variation1[i], LD.info.10Kb$variation2[i]]<-
+    LD.r2.10Kb[LD.info.10Kb$variation2[i],LD.info.10Kb$variation1[i]] <-
+    LD.info.10Kb$r2[i]
 }
 ```
 
@@ -153,7 +153,7 @@ Thanks to the handy function `outer()`, we can generate a matrix with the bp pos
 line. 
 
 ```javascript
-LD.dist.30Kb <- outer(LD.info.30Kb.unique.variants$position, LD.info.30Kb.unique.variants$position, "-")
+LD.dist.10Kb <- outer(LD.info.10Kb.unique.variants$position, LD.info.10Kb.unique.variants$position, "-")
 ```
 
 Since we want to show both LD and distances on the same heatmap, we can zero the out half of each matrix. The R-squared
@@ -162,7 +162,7 @@ heatmap.
 
 
 ```javascript
-LD.r2.30Kb[lower.tri(LD.r2.30Kb)] = 0 
+LD.r2.10Kb[lower.tri(LD.r2.10Kb)] = 0 
 ```
 
 
