@@ -1,7 +1,7 @@
 ---
 title: 'Two for One Heatmaps in R with ComplexHeatmaps'
 date: 2018-7-21
-excerpt: "<img src='/images/Blog_Heatmap_R2.jpg'>"
+excerpt: "<img src='/images/Blog_Heatmap_R2.png'>"
 permalink: /posts/LD-Distance-Heatmap/
 tags:
   - Genomics
@@ -149,7 +149,7 @@ Heatmap(LD.r2.10Kb, name = "LD R2" col = colorRamp2(c(0,1), c("white", "darkred"
 cluster_columns = FALSE, show_row_names = TRUE, show_column_names = TRUE, show_column_dend = FALSE)
 ```
 
-<img src='/images/Blog_Heatmap_R2.jpg'>
+![](https://github.com/SandersKM/SandersKM.github.io/tree/master/imagesBlog_Heatmap_R2.png)
 
 
 Thanks to the handy function `outer()`, we can generate a matrix with the bp position differences between variants in one
