@@ -150,7 +150,7 @@ Heatmap(LD.r2.10Kb, name = "LD R2" col = colorRamp2(c(0,1), c("white", "darkred"
 cluster_columns = FALSE, show_row_names = TRUE, show_column_names = TRUE, show_column_dend = FALSE)
 ```
 
-![Image](https://github.com/SandersKM/SandersKM.github.io/tree/master/images/Blog_Heatmap_R2.png?raw=true)
+![](/images/Blog_Heatmap_R2.png?raw=true)
 
 
 Thanks to the handy function `outer()`, we can generate a matrix with the bp position differences between variants in one
@@ -168,6 +168,9 @@ heatmap.
 ```R
 LD.r2.10Kb[lower.tri(LD.r2.10Kb)] = 0 
 ```
+
+## SORRY THIS ISN'T DONE YET :( ##
+
 
 ```R
 
