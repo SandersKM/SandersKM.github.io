@@ -1,5 +1,5 @@
 ---
-title: 'Blog Post number 1'
+title: 'Two for One Heatmaps in R with ComplexHeatmaps'
 date: 2018-7-21
 permalink: /posts/LD-Distance-Heatmap/
 tags:
@@ -9,7 +9,8 @@ tags:
   - Graphs
 ---
 
-Two for One Heatmaps in R with ComplexHeatmaps======
+Two for One Heatmaps in R with ComplexHeatmaps
+======
 
 
 
