@@ -1,6 +1,7 @@
 ---
 title: 'Two for One Heatmaps in R with ComplexHeatmaps'
 date: 2018-7-21
+excerpt: "<img src='/images/Blog_Heatmap_R2.jpg'>"
 permalink: /posts/LD-Distance-Heatmap/
 tags:
   - Genomics
@@ -101,7 +102,7 @@ LD.info.10Kb.unique.variants <- data.frame(rsid = union(LD.info.10Kb$variation1,
 
 Fetching the variant positions from Ensembl is a bit tricky. Basically, Ensembl will only let you make 200 calls
 at a time, which involves some indexing fun to make sure all of the positions end up with the right variants as quickly
-as possible. After fetching the positions, we will sort all of the variants by bp position. 
+as possible. It's not needed for this example, but it might save you some time if you want to retrieve positions from a larger area. After fetching the positions, we will sort all of the variants by bp position. 
 
 ```R
 # Fetch Position from Ensembl using RSID
@@ -147,6 +148,9 @@ Let's make a Heatmap with just the R-squared values.
 Heatmap(LD.r2.10Kb, name = "LD R2" col = colorRamp2(c(0,1), c("white", "darkred")), cluster_rows = FALSE, 
 cluster_columns = FALSE, show_row_names = TRUE, show_column_names = TRUE, show_column_dend = FALSE)
 ```
+
+<img src='/images/Blog_Heatmap_R2.jpg'>
+
 
 Thanks to the handy function `outer()`, we can generate a matrix with the bp position differences between variants in one
 line. 
