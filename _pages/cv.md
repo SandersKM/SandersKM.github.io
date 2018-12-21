@@ -18,6 +18,11 @@ redirect_from:
 
 # Research experience
 
+**Undergraduate Research Odyssey**, Hendrix College (Fall 2018)
+*Under the direction of [Dr. Adam Schneider](https://scholar.google.com/citations?user=4uliMTwAAAAJ&hl=en#)*
+
+I am studying the molecular evolution of Dwarf Mistletoe (Arceuthobium) using a phylogenetic approach. 
+
 **Broad Summer Research Program**, Broad Institute of MIT and Harvard (Summer 2018)         
 [Greka Lab](http://grekalab.bwh.harvard.edu/people/), *Under the direction of [Dr. Jamie Marshall](https://www.broadinstitute.org/bios/jamie-marshall)* 
 
@@ -42,18 +47,29 @@ I assisted with Dr. Oliviera's research in 16S rRNA metagenomic analysis of Ozar
 
 ***
 
-# Presentations
+# Papers and Presentations
 
-## Poster presentations
+## Academic Papers
 
-July. 2017 - "Probabilistic Models for Cardiovascular Events." [Indiana University School of Informatics and Computing Summer Research Programs Poster Symposium](https://www.sice.indiana.edu/news/story.html?story=Summer-REU-students-cap-off-work-symposium). [pdf](/files/POSTER.pdf)
+Ben Jelen, Anne Freeman, Mina Narayanan, Kate M. Sanders, James Clawson, and Katie Siek. Craftec: Engaging Older Adults in Making through a Craft-Based Toolkit System. In Proceedings of the Thirteenth International Conference on Tangible, Embedded, and Embodied Interaction (TEI '19). ACM, New York, NY, USA, 331-340. (34% acceptance rate)
 
+## Poster Presentations
+
+Sanders KM, Marshall J, and Wang Q. Characterizing Kidney Disease Gene Variants:
+A Programmatic Approach. Paper presented at: Annual Biomedical Research Conference for Minority Students; 2018 November 14-17; Indianapolis, IN.
+
+Sanders KM, Robert LM, Nandini Ramanan, and Sriraam Natarajan. Probabilistic Models for Cardiovascular Events. Poster presented at: [Indiana University School of Informatics and Computing Summer Research Programs Poster Symposium](https://www.sice.indiana.edu/news/story.html?story=Summer-REU-students-cap-off-work-symposium); 2017 July; Bloomington, IN. [pdf](/files/POSTER.pdf)
 
 ***
 
 # Teaching
 
 ## Academic
+
+**Computer Science, Teaching assistant**
+*Hendrix College*, Conway, AR (Fall 2018)
+
+I hosted "office hours" for introductory computer science students 4 hours a week. During this time, I answered questions about labs, homework assignments, projects, and tests. 
 
 **Data Structures, Teaching assistant**   
 *Hendrix College*, Conway, AR (Spring 2018)
@@ -120,7 +136,7 @@ National Modern Woodmen Scholarship (Spring 2016)
 
 ## Honors
 
-[Barry Goldwater Scholarship Nominee](https://goldwater.scholarsapply.org/), Hendrix College (Fall 2017) 
+[Barry Goldwater Scholarship Nominee](https://goldwater.scholarsapply.org/), Hendrix College (Fall 2017, 2018) 
 
 Dean's List, Hendrix College (Fall 2016 - Spring 2018) 
 
