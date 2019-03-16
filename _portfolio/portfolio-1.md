@@ -1,6 +1,6 @@
 ---
 title: "Central Arkansas United Way Community Resources Page"
-excerpt: "Final project for Databases and Web Systems at Hendrix College (CSCI 340)<br/><img src='/images/500x300.png'>"
+excerpt: "Final project for Databases and Web Systems at Hendrix College (CSCI 340)<br/><img src='https://github.com/baertt/UnitedWayCommunityResources/blob/master/ScreenShots/screencapture-localhost-53661-2018-07-08-21_23_58.png'>"
 collection: portfolio
 ---
 
