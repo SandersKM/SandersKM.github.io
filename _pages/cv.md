@@ -51,12 +51,17 @@ I assisted with Dr. Oliviera's research in 16S rRNA metagenomic analysis of Ozar
 
 ## Academic Papers
 
-Ben Jelen, Anne Freeman, Mina Narayanan, Kate M. Sanders, James Clawson, and Katie Siek. Craftec: Engaging Older Adults in Making through a Craft-Based Toolkit System. In Proceedings of the Thirteenth International Conference on Tangible, Embedded, and Embodied Interaction (TEI '19). ACM, New York, NY, USA, 331-340. (34% acceptance rate)
+Ben Jelen, Anne Freeman, Mina Narayanan, Kate M. Sanders, James Clawson, and Katie A. Siek. (2019). [Craftec: Engaging Older Adults in Making through a Craft-Based Toolkit System](https://dl.acm.org/citation.cfm?doid=3294109.3295636). In Proceedings of the [Thirteenth International Conference on Tangible, Embedded, and Embodied Interaction](https://tei.acm.org/2019/) (TEI '19). (Acceptance 34%).
 
-## Poster Presentations
+## Oral Presentations
 
 Sanders KM, Marshall J, and Wang Q. Characterizing Kidney Disease Gene Variants:
 A Programmatic Approach. Paper presented at: Annual Biomedical Research Conference for Minority Students; 2018 November 14-17; Indianapolis, IN.
+
+## Poster Presentations
+
+Sanders KM, Marshall J, and Wang Q. Characterizing Kidney Disease Gene Variants: The 5th Annual Arkansas Bioinformatics Consortium (AR-BIC 2019); 2019 February 25; Little Rock, AR.
+* Undergraduate Poster Session Winner
 
 Sanders KM, Robert LM, Nandini Ramanan, and Sriraam Natarajan. Probabilistic Models for Cardiovascular Events. Poster presented at: [Indiana University School of Informatics and Computing Summer Research Programs Poster Symposium](https://www.sice.indiana.edu/news/story.html?story=Summer-REU-students-cap-off-work-symposium); 2017 July; Bloomington, IN. [pdf](/files/POSTER.pdf)
 
