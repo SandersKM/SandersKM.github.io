@@ -21,7 +21,7 @@ redirect_from:
 **Undergraduate Research Odyssey**, Hendrix College (Fall 2018)
 *Under the direction of [Dr. Adam Schneider](https://scholar.google.com/citations?user=4uliMTwAAAAJ&hl=en#)*
 
-I am studying the molecular evolution of Dwarf Mistletoe (Arceuthobium) using a phylogenetic approach. 
+I am studying the parasitic plant Dwarf Mistletoe (Arceuthobium). I built a pipeline for assembling Arceuthobium platomes from Illumina Sequencing data. We are using these assemblies to construct a more accurate molecular phylogeny of Arceuthobium. 
 
 **Broad Summer Research Program**, Broad Institute of MIT and Harvard (Summer 2018)         
 [Greka Lab](http://grekalab.bwh.harvard.edu/people/), *Under the direction of [Dr. Jamie Marshall](https://www.broadinstitute.org/bios/jamie-marshall)* 
@@ -71,21 +71,15 @@ Sanders KM, Robert LM, Nandini Ramanan, and Sriraam Natarajan. Probabilistic Mod
 
 ## Academic
 
-**Computer Science, Teaching assistant**
-*Hendrix College*, Conway, AR (Fall 2018)
+**Computer Science, Teaching Assistant**    
+*Hendrix College*, Conway, AR (Fall 2017 - Present)
 
-I hosted "office hours" for introductory computer science students 4 hours a week. During this time, I answered questions about labs, homework assignments, projects, and tests. 
+I am a Teaching Assistant for the laboratory portion of the introductory computer science classes at Hendrix. In addition to answering questions during labs, I host tutoring hours weekly. I have assisted the students in mastering the basics of programming in Python and Java, guiding them through the logic and debugging skills required to complete projects.
 
-**Data Structures, Teaching assistant**   
-*Hendrix College*, Conway, AR (Spring 2018)
+**Genetics, Peer Learning Assistant**    
+*Hendrix College*, Conway, AR (Spring 2019 - Present)
 
-I was a TA for the 3-hour weekly laboratory portion of the data structures class. I also tutored students from several computer science classes weekly for 2 hours. When students had trouble implementing complex data structures in Java, I answered conceptual questions and helped with debugging. I also gave advice to students tackling large independent projects.
-
-
-**Foundations of Computer Science, Teaching assistant**    
-*Hendrix College*, Conway, AR (Fall 2017)
-
-I was a TA for the laboratory portion of the introductory computer science class at Hendrix. In addition to answering questions during labs for 3 hours per week, I also hosted tutoring hours weekly for 2 hours. I assisted the students in mastering the basics of programming in Python, guiding them through the logic and debugging skills required to complete projects.
+I host tutoring hours every week for the Genetics course. During this time, I assist students in understanding course concepts, completing homework assignments, and reviewing for tests. 
 
 ***
 
@@ -113,7 +107,7 @@ I wrote several articles per month, ranging from alumni profiles to community ev
 
 ## Music
 
-[**Hendrix College Choir**](https://www.hendrix.edu/choir/), *Choir Scholar* (2016-2018)
+[**Hendrix College Choir**](https://www.hendrix.edu/choir/), *Choir Scholar*, *Social Media Officer* (2016-Present)
 
 [**Christ Episcopal Church Choir**](http://christchurchlr.org/?page_id=1834), *Paid Singer* (2016-2018)
 
@@ -128,6 +122,8 @@ I wrote several articles per month, ranging from alumni profiles to community ev
 [Mathematical Contest in Modeling (MCM)](https://www.comap.com/undergraduate/contests/mcm/), *Honorable Mention* (Spring 2018)
 
 [CCSC:Mid-South](http://www.ccsc-ms.org/index.php?page=contest&sub=results), *2nd Place Programming Team* (Spring 2018)
+
+[ICPC: University of Arkansas – Fort Smith Location](https://mcpc18.kattis.com/standings?filter=1809) *2nd Place Programming Team* (Fall 2018)
 
 ## Scholarships
 
