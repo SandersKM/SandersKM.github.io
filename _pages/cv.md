@@ -18,15 +18,15 @@ redirect_from:
 
 # Research experience
 
-**Undergraduate Research Odyssey**, Hendrix College (Fall 2018)
+**Undergraduate Research Odyssey**, Hendrix College (Fall 2018 - Present)
 *Under the direction of [Dr. Adam Schneider](https://scholar.google.com/citations?user=4uliMTwAAAAJ&hl=en#)*
 
-I am studying the parasitic plant Dwarf Mistletoe (Arceuthobium). I built a pipeline for assembling Arceuthobium platomes from Illumina Sequencing data. We are using these assemblies to construct a more accurate molecular phylogeny of Arceuthobium. 
+I am studying the parasitic plant Dwarf Mistletoe (Arceuthobium). I built a pipeline for assembling Arceuthobium platomes from Illumina Sequencing data. We are using these assemblies to construct a more accurate molecular phylogeny of Arceuthobium. [code](https://github.com/SandersKM/ArceuthobiumPipeline)
 
 **Broad Summer Research Program**, Broad Institute of MIT and Harvard (Summer 2018)         
 [Greka Lab](http://grekalab.bwh.harvard.edu/people/), *Under the direction of [Dr. Jamie Marshall](https://www.broadinstitute.org/bios/jamie-marshall)* 
 
-At the Broad Institute, I created a user-friendly pipeline to identify potentially pathogenic gene variants associated with Kidney Disease. This pipeline significantly reduces the time researchers must spend searching for gene variants online, thereby increasing the time that can be spent conducting experiments in the lab. 
+At the Broad Institute, I created a user-friendly pipeline to identify potentially pathogenic gene variants associated with Kidney Disease. This pipeline significantly reduces the time researchers must spend searching for gene variants online, thereby increasing the time that can be spent conducting experiments in the lab. [code](https://github.com/SandersKM/MendelianVariants)
 
 **Undergraduate Research Odyssey**, Hendrix College (Spring 2018)           
 *Under the direction of [Dr. Lindsay Kennedy](https://www.hendrix.edu/psychology/psychology.aspx?id=54453)* 
@@ -38,32 +38,10 @@ I created a pipeline in R for analyzing results of the Hendrix Well Being Survey
 
 I participated in the ProHealth REU the summer after my freshman year. While there, I explored novel interactions between heart disease risk factors using Bayesian networks. 
 
-
 **Research Assistant**, Lyon College (Summer 2015)       
 *Under the direction of [Dr. Cassia Oliveira](https://www.lyon.edu/cassiaoliveira)*
 
 I assisted with Dr. Oliviera's research in 16S rRNA metagenomic analysis of Ozark cave bacteria the summer before my senior year of high school. During this time I helped gather and grow cave bacteria, perform RNA extraction, and analyze sequencing results. [Read more](/portfolio/Research-Lyon/). 
-
-
-***
-
-# Papers and Presentations
-
-## Academic Papers
-
-Ben Jelen, Anne Freeman, Mina Narayanan, Kate M. Sanders, James Clawson, and Katie A. Siek. (2019). [Craftec: Engaging Older Adults in Making through a Craft-Based Toolkit System](https://dl.acm.org/citation.cfm?doid=3294109.3295636). In Proceedings of the [Thirteenth International Conference on Tangible, Embedded, and Embodied Interaction](https://tei.acm.org/2019/) (TEI '19). (Acceptance 34%).
-
-## Oral Presentations
-
-Sanders KM, Marshall J, and Wang Q. Characterizing Kidney Disease Gene Variants:
-A Programmatic Approach. Paper presented at: Annual Biomedical Research Conference for Minority Students; 2018 November 14-17; Indianapolis, IN.
-
-## Poster Presentations
-
-Sanders KM, Marshall J, and Wang Q. Characterizing Kidney Disease Gene Variants: The 5th Annual Arkansas Bioinformatics Consortium (AR-BIC 2019); 2019 February 25; Little Rock, AR.
-* Undergraduate Poster Session Winner
-
-Sanders KM, Robert LM, Nandini Ramanan, and Sriraam Natarajan. Probabilistic Models for Cardiovascular Events. Poster presented at: [Indiana University School of Informatics and Computing Summer Research Programs Poster Symposium](https://www.sice.indiana.edu/news/story.html?story=Summer-REU-students-cap-off-work-symposium); 2017 July; Bloomington, IN. [pdf](/files/POSTER.pdf)
 
 ***
 
@@ -112,6 +90,26 @@ I wrote several articles per month, ranging from alumni profiles to community ev
 [**Christ Episcopal Church Choir**](http://christchurchlr.org/?page_id=1834), *Paid Singer* (2016-2018)
 
 [**Compline Choir**](https://complineathendrix.org/), *Paid Singer* (2016-2018)
+
+***
+
+# Papers and Presentations
+
+## Academic Papers
+
+Ben Jelen, Anne Freeman, Mina Narayanan, Kate M. Sanders, James Clawson, and Katie A. Siek. (2019). [Craftec: Engaging Older Adults in Making through a Craft-Based Toolkit System](https://dl.acm.org/citation.cfm?doid=3294109.3295636). In Proceedings of the [Thirteenth International Conference on Tangible, Embedded, and Embodied Interaction](https://tei.acm.org/2019/) (TEI '19). (Acceptance 34%).
+
+## Oral Presentations
+
+Sanders KM, Marshall J, and Wang Q. Characterizing Kidney Disease Gene Variants:
+A Programmatic Approach. Paper presented at: Annual Biomedical Research Conference for Minority Students; 2018 November 14-17; Indianapolis, IN.
+
+## Poster Presentations
+
+Sanders KM, Marshall J, and Wang Q. Characterizing Kidney Disease Gene Variants: The 5th Annual Arkansas Bioinformatics Consortium (AR-BIC 2019); 2019 February 25; Little Rock, AR.
+* Undergraduate Poster Session Winner
+
+Sanders KM, Robert LM, Nandini Ramanan, and Sriraam Natarajan. Probabilistic Models for Cardiovascular Events. Poster presented at: [Indiana University School of Informatics and Computing Summer Research Programs Poster Symposium](https://www.sice.indiana.edu/news/story.html?story=Summer-REU-students-cap-off-work-symposium); 2017 July; Bloomington, IN. [pdf](/files/POSTER.pdf)
 
 ***
 
